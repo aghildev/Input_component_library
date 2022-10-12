@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(197, 197, 197)
+}
+
+header h1{
+    text-align: center;
+    color:rgb(60, 69, 238)
+}
+
+
+.container{
+    text-align: center;
+    margin-top:10rem;
+}
+
+.input{
+    font-size:inherit;
+    outline:none;
+    border:1px solid gray;
+    padding:.7em;
+    margin:2rem;
+    border-radius: .2em;
+}
+
+.default{
+  border:2px solid rgb(16, 147, 195);
+}
+.default:focus{
+    box-shadow: 0 0 10px rgb(5, 188, 255);
+    background-color: rgb(227, 217, 204);
+}
+.success{
+    border:2px solid rgb(16, 195, 49);
+
+}
+.success:focus{
+    box-shadow: 0 0 10px rgb(5, 255, 59);
+    background-color: rgb(227, 217, 204);
+}
+
+.error{
+  border:2px solid red
+}
+.error:focus{
+    box-shadow: 0 0 10px rgba(255, 5, 5, 0.848);
+    background-color: rgb(227, 217, 204);
+}
+.large{
+   
+   padding:1.5em 3.3em;
+   border:2px solid rgb(42, 10, 224);
+}
+.large:focus{
+    box-shadow: 0 0 10px rgb(38, 0, 255);
+    background-color: rgb(227, 217, 204);
+}
+.small{
+    padding:.5em;
+    border:2px solid orchid
+    
+}
+
+.small:focus{
+    box-shadow: 0 0 10px rgb(244, 98, 239);
+    background-color: rgb(227, 217, 204);
+}
